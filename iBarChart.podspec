@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'iBarChart'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A simple animated vertical bar chart component.'
  
   s.description      = <<-DESC
@@ -14,9 +14,7 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '7.0'
   s.source_files = 'iBarChart/**/*.{h,m}'
-  s.resource_bundles = {
-     'iBarChart' => ['iBarChart/**/*.xib']
-  }
+  s.resources = ["iBarChart/**/*.{xib}"]
   s.frameworks = 'UIKit'
  
 end
